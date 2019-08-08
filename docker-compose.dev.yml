@@ -23,3 +23,7 @@ services:
     image: "uhhlt/newsleak-ner:v1.0"
     ports:
      - "5001:5001"
+  vector-indexing:
+    image: "ltphillip/vector-indexing:v0.9"
+    ports:
+     - "5003:5000"
