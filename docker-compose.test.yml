@@ -1,0 +1,15 @@
+version: '2'
+networks:
+  default:
+    external:
+      name: hoover_default
+services:
+  newsleak-ui:
+    image: "uhhlt/newsleak:v1.0"
+    volumes:
+     - ./volumes/ui:/etc/settings/
+    ports:
+     - "9000:9000"
+    tty: true
+    container_name: newsleak
+
