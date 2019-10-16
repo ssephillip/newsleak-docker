@@ -17,9 +17,9 @@ services:
   newsleak-ner:
     image: "uhhlt/newsleak-ner:v1.0"
   vector-indexing:
-    image: "ltphillip/vector-indexing:v0.9"
+    image: "ltphillip/vector-indexing:v0.91"
   newsleak-ui:
-    image: "ltphillip/newsleak:v1.71"
+    image: "ltphillip/newsleak:v2.0"
     volumes:
      - ./volumes/ui:/etc/settings/
 #    ports:

@@ -4,7 +4,8 @@
 #3. docker-compose
 git clone https://github.com/ssephillip/newsleak-docker.git
 cd newsleak-docker
+docker network create hoover_default
 docker-compose up -d
 docker exec -it -u root newsleak ./newsleak-start.sh
-docker-compose -f docker-compose.front-end.yml up -d
-echo "Setup finished. Application started."
+docker-compose stop
+echo "Setup finished. You can now start the application."
