@@ -19,7 +19,7 @@ services:
   vector-indexing:
     image: "ltphillip/vector-indexing:v0.91"
   newsleak-ui:
-    image: "ltphillip/newsleak:v2.0"
+    image: "ltphillip/newsleak:v2.1"
     volumes:
      - ./volumes/ui:/etc/settings/
     ports:
