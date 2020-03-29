@@ -1,6 +1,6 @@
 # newsleak-docker
 
-Docker configuration to run new/s/leak
+Docker configuration to run the new, extended version of new/s/leak that resulted from my BA thesis.
 
 ## Installation
 
