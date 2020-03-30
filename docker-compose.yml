@@ -17,7 +17,7 @@ services:
   newsleak-ner:
     image: "uhhlt/newsleak-ner:v1.0"
   vector-indexing:
-    image: "ltphillip/vector-indexing:v0.91"
+    image: "ltphillip/vector-indexing:v0.93"
   newsleak-ui:
     image: "ltphillip/newsleak:v2.4-no-heideltime"
     volumes:
