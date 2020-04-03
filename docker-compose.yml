@@ -18,10 +18,8 @@ services:
     image: "uhhlt/newsleak-ner:v1.0"
   vector-indexing:
     image: "ltphillip/vector-indexing:v0.93"
-    ports:
-     - "5000:5000"
   newsleak-ui:
-    image: "ltphillip/newsleak:v2.4-no-heideltime"
+    image: "ltphillip/newsleak:v2.5-test-3"
     volumes:
      - ./volumes/ui:/etc/settings/
     ports:

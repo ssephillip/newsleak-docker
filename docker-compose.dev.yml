@@ -24,7 +24,7 @@ services:
     ports:
      - "5001:5001"
   vector-indexing:
-    image: "ltphillip/vector-indexing:v0.9"
+    image: "ltphillip/vector-indexing:v0.93"
     ports:
-     - "5006:5000"
+     - "5003:5000"
 
