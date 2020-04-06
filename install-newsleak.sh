@@ -7,6 +7,7 @@
 
 mkdir -p volumes/ui/conf/dictionaries
 mkdir -p volumes/ui/data
+mkdir -p volumes/ui/stats
 mkdir -p volumes/ui/doc2vec-training/result
 chmod 777 -R volumes/ui
 docker network create hoover_default
